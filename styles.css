@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+  }
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+  }
+
+
+
+*{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card_background{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+}
+
+.qr_code{
+    width: 250px;
+    border-radius: 20px;
+}
+.qr_code-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.main_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+    color: #222233;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+}
+.second_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+    color: rgba(0,0,0,0.4);
+}
+.my_name{
+    color: white;
+}
+
+@media screen and (max-height: 600px) {
+    .card_background{
+        width: 600px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+    }
+    .qr_code-container{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .qr_code{
+        position: relative;
+        margin-right: 300px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    .text-container{
+        margin: 10px;
+        position: relative;
+        left: 100px;
+        margin-top: -215px;
+        margin-left: 80px;
+        width: 300px;
+    }
+    .main_text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+        color: #222233;
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+    }
+    .second_text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+        color: rgba(0,0,0,0.4);
+    }
+}
+
